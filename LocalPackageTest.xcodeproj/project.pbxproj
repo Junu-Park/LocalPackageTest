@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		51BB0CAF2DD0EF6700D07232 /* LocalPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 51BB0CAE2DD0EF6700D07232 /* LocalPackage */; };
+		51BB0CD72DD0F49900D07232 /* LocalPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 51BB0CD62DD0F49900D07232 /* LocalPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51BB0CAF2DD0EF6700D07232 /* LocalPackage in Frameworks */,
+				51BB0CD72DD0F49900D07232 /* LocalPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +73,7 @@
 			name = LocalPackageTest;
 			packageProductDependencies = (
 				51BB0CAE2DD0EF6700D07232 /* LocalPackage */,
+				51BB0CD62DD0F49900D07232 /* LocalPackage */,
 			);
 			productName = LocalPackageTest;
 			productReference = 51BB0C9A2DD0EE2000D07232 /* LocalPackageTest.app */;
@@ -101,7 +104,7 @@
 			mainGroup = 51BB0C912DD0EE2000D07232;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				51BB0CAD2DD0EF6700D07232 /* XCLocalSwiftPackageReference "../LocalPackage" */,
+				51BB0CD52DD0F49900D07232 /* XCLocalSwiftPackageReference "LocalPackage" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 51BB0C9B2DD0EE2000D07232 /* Products */;
@@ -335,14 +338,18 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		51BB0CAD2DD0EF6700D07232 /* XCLocalSwiftPackageReference "../LocalPackage" */ = {
+		51BB0CD52DD0F49900D07232 /* XCLocalSwiftPackageReference "LocalPackage" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../LocalPackage;
+			relativePath = LocalPackage;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		51BB0CAE2DD0EF6700D07232 /* LocalPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LocalPackage;
+		};
+		51BB0CD62DD0F49900D07232 /* LocalPackage */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = LocalPackage;
 		};
