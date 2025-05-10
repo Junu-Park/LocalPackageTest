@@ -13,6 +13,7 @@
 
 /* Begin PBXFileReference section */
 		51BB0C9A2DD0EE2000D07232 /* LocalPackageTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalPackageTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BB0D242DD0FCE800D07232 /* LocalPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LocalPackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -39,6 +40,7 @@
 		51BB0C912DD0EE2000D07232 = {
 			isa = PBXGroup;
 			children = (
+				51BB0D242DD0FCE800D07232 /* LocalPackage */,
 				51BB0C9C2DD0EE2000D07232 /* LocalPackageTest */,
 				51BB0C9B2DD0EE2000D07232 /* Products */,
 			);
